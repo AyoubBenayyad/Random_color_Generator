@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 1000px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav_cont{
+
+    height: 50px;
+    border: 2px solid black;
+    display: grid;
+    place-content: center;
+    background-color: rgb(232, 232, 232);
+}
+.coinflip{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(4, 114, 114);
+}
+main{
+    min-height: 1000px;
+    display: grid;
+    place-content: center;
+    gap: 2rem;
+}
+.current_color{
+    padding: 2rem;
+    font-size: x-large;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+#changeColor{
+    width:150px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+#changeColor:hover{
+    background-color: black;
+    color: white;
+    border:2px solid whitesmoke;
+}
